@@ -25,9 +25,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@main
 
-      - name: Build docker image
-        run: | 
-          REGISTRY=${{ env.ACRSERVER }} make build
+      # - name: Build docker image
+      #   run: | 
+      #     REGISTRY=${{ env.ACRSERVER }} make build
 
       - name: Docker login
         uses: azure/docker-login@v1
