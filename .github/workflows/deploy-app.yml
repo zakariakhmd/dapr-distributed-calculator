@@ -81,8 +81,6 @@ jobs:
             deploy/node-divider.yaml
             deploy/python-multiplier.yaml
             deploy/react-calculator.yaml
-            deploy/misc/azurekeyvault.yaml
-            deploy/misc/redis.yaml
           images: |
             ${{ env.ACRSERVER }}:${{ github.sha }}
           imagepullsecrets: |
