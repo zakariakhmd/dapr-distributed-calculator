@@ -93,4 +93,3 @@ jobs:
       SECRET: ${{ secrets.ACRNAME }}
       # NAMESPACE: ${{ secrets.ACRNAME }}
 
-      #tes
